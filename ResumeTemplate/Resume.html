@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <link rel="stylesheet" href="./Resume.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+</head>
+
+<body onload="searchValue('')">
+
+    <section id="options">
+        <input type="button" id="previous" value="Previous" onclick="searchValue('previous')" />
+        <input type="search" name="search" id="search" onchange="searchValue('')" 
+            placeholder="search for keywords to filter the resumes">
+        <input type="button" id="next" value="Next" onclick="searchValue('next')" />
+    </section>
+
+    <section id="error">
+        <i class="fas fa-frown" style="font-size: 100px"></i>
+        <p>No such results found</p>
+    </section>
+
+
+    <section id="template">
+        <header id="header">
+
+        </header>
+
+        <section id="mainpage">
+
+            <article id="leftpage">
+
+            </article>
+
+            <article id="rightpage">
+
+                <div class="details-list">
+                    <h4>Work Experience in previous company</h4>
+                    <ul id="work-details" class="details"></ul>
+                </div>
+
+                <div class="details-list">
+                    <h4>Projects</h4>
+                    <ul id="projects" class="details"></ul>
+                </div>
+
+                <div class="details-list">
+                    <h4>Education</h4>
+                    <ul id="education" class="details"></ul>
+                </div>
+
+                <div class="details-list">
+                    <h4>Internship</h4>
+                    <ul id="internship" class="details"></ul>
+                </div>
+
+                <div class="details-list">
+                    <h4>Achievements</h4>
+                    <ul id="achievements" class="details"></ul>
+                </div>
+
+            </article>
+
+        </section>
+    </section>
+
+    <script src="./Resume.js" type="text/javascript"></script>
+</body>
+
+</html>

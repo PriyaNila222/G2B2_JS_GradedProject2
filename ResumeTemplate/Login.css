@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    background-color: lightslategray;
+    height: 100%;
+}
+
+#box {
+    height: 200px;
+    width: 450px;
+    background-color: yellow;    
+    margin-top: 12%;
+    margin-left: 30%;
+    padding: 50px;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px  10px rgb(0, 0, 0, 1);
+}
+
+#error{
+    padding: 0px;
+    margin-top: 0;
+    margin-left: 100px;
+    font-size: 16pt;
+    color: red;
+
+}
+#box input {
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 100px;
+    font-size: 16pt;
+}
+
+#box #login{
+    margin-top: 30px;
+    margin-left: 200px;
+    background-color: rgb(66, 255, 66) ;
+    font-size: 16pt;
+    border-radius: 5px;
+}
+
+
+
